@@ -1,4 +1,4 @@
-# MDATP-SIEM-Token-Tester
+# MDATP SIEM Token Tester
 The purpose of this project is to allow testing a SIEM's flow when fetching MDATP alerts through its respective REST API. The project provides the possibility to test using the two supported OAuth2.0 flows for the MDATP REST API: Authorization Code and Client Credentials. The MSAL library is used to facilitate both token flows and the REST API is called through basic HTTP Client calls.
 
 ### To build MDATP SIEM Checker
