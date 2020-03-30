@@ -3,7 +3,11 @@ The purpose of this project is to allow testing a SIEM's flow when fetching MDAT
 
 ### To build MDATP SIEM Checker
 
-Add the following NuGet packages:
+I generally suggest downloading the code and building it accordingly for debugging purposes. If you need to test this tool out directly, you may go to the relseases:
+
+    https://github.com/Ahmad-K-A/MDATP-SIEM-Token-Tester/releases
+
+When building, add the following NuGet packages:
 
     Microsoft.Identity.Client
 
