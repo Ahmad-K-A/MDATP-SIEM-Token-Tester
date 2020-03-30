@@ -11,7 +11,7 @@ namespace MDATP_SIEM_Checker
         public static void WriteLog(string logmessage)
         {
             var Date = DateTime.Now.ToString("yyyy - MM - dd HH: mm:sss");
-            var logline = Date + " : " + logmessage + Environment.NewLine;
+            var logline = Date + " :" + Environment.NewLine + logmessage + Environment.NewLine + "------------------------------" + Environment.NewLine + Environment.NewLine;
             System.IO.File.AppendAllText("SIEMlog.txt",logline);
         }
     }

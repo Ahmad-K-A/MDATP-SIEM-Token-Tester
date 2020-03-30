@@ -198,7 +198,6 @@
             this.apiurl.Name = "apiurl";
             this.apiurl.Size = new System.Drawing.Size(280, 22);
             this.apiurl.TabIndex = 18;
-            this.apiurl.Text = "https://graph.microsoft.com/v1.0/users";
             // 
             // label6
             // 
