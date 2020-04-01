@@ -336,7 +336,6 @@
             this.apiurlcc.Name = "apiurlcc";
             this.apiurlcc.Size = new System.Drawing.Size(280, 22);
             this.apiurlcc.TabIndex = 32;
-            this.apiurlcc.Text = "https://graph.microsoft.com/v1.0/users";
             // 
             // label11
             // 
